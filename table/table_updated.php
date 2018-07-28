@@ -29,7 +29,7 @@ class table_updated extends discuz_table
 
     public function page_select_books_by_topic($topic,$offset,$size)
     {
-        return DB::fetch_all("select updated.* , description.descr as Descr from  %t left join %t on (description.md5 = updated.mD5) WHERE Topic = %s AND language = english limit %d,%d", array
+        return DB::fetch_all("select updated.* , description.descr as Descr from  %t left join %t on (description.md5 = updated.mD5) WHERE Topic = %s AND language = 'english' limit %d,%d", array
         ($this->_table, 'description', $topic,$offset,$size));
     }
 
