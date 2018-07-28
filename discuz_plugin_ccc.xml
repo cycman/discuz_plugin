@@ -2,7 +2,7 @@
 <root>
 	<item id="Title"><![CDATA[Discuz! Plugin]]></item>
 	<item id="Version"><![CDATA[X3.4]]></item>
-	<item id="Time"><![CDATA[2018-07-14 02:49]]></item>
+	<item id="Time"><![CDATA[2018-07-28 17:09]]></item>
 	<item id="From"><![CDATA[Discuz! Board (http://vm.discuz.com/)]]></item>
 	<item id="Data">
 		<item id="plugin">
@@ -19,10 +19,10 @@
 				<item id="0">
 					<item id="name"><![CDATA[ccc]]></item>
 					<item id="param"><![CDATA[]]></item>
-					<item id="menu"><![CDATA[]]></item>
+					<item id="menu"><![CDATA[cccccc]]></item>
 					<item id="url"><![CDATA[]]></item>
-					<item id="type"><![CDATA[3]]></item>
-					<item id="adminid"><![CDATA[0]]></item>
+					<item id="type"><![CDATA[1]]></item>
+					<item id="adminid"><![CDATA[1]]></item>
 					<item id="displayorder"><![CDATA[0]]></item>
 					<item id="navtitle"><![CDATA[]]></item>
 					<item id="navicon"><![CDATA[]]></item>
@@ -32,5 +32,43 @@
 			</item>
 		</item>
 		<item id="version"><![CDATA[X3.4]]></item>
+		<item id="var">
+			<item id="0">
+				<item id="displayorder"><![CDATA[0]]></item>
+				<item id="title"><![CDATA[test]]></item>
+				<item id="description"><![CDATA[]]></item>
+				<item id="variable"><![CDATA[test]]></item>
+				<item id="type"><![CDATA[text]]></item>
+				<item id="value"><![CDATA[test]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="1">
+				<item id="displayorder"><![CDATA[0]]></item>
+				<item id="title"><![CDATA[topic]]></item>
+				<item id="description"><![CDATA[]]></item>
+				<item id="variable"><![CDATA[topic]]></item>
+				<item id="type"><![CDATA[text]]></item>
+				<item id="value"><![CDATA[305]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="2">
+				<item id="displayorder"><![CDATA[0]]></item>
+				<item id="title"><![CDATA[offset]]></item>
+				<item id="description"><![CDATA[]]></item>
+				<item id="variable"><![CDATA[offset]]></item>
+				<item id="type"><![CDATA[text]]></item>
+				<item id="value"><![CDATA[0]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="3">
+				<item id="displayorder"><![CDATA[0]]></item>
+				<item id="title"><![CDATA[size]]></item>
+				<item id="description"><![CDATA[]]></item>
+				<item id="variable"><![CDATA[size]]></item>
+				<item id="type"><![CDATA[text]]></item>
+				<item id="value"><![CDATA[1]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+		</item>
 	</item>
 </root>
