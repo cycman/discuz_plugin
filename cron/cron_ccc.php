@@ -105,9 +105,13 @@ function genBookCoverImageLink($book)
 }
 
 try {
+
+    $mapTopic = explode('=>', $topic);
+    $topics = json_decode($mapTopic[1],true);
+    $topics=array_column($topics, 'id');
     //
     // $books = queryBooks([],$_GRAPHQL_URL);
-    while ($results = c::t('#ccc#updated')->page_select_books_by_topic($topic, $offset, $size)) {
+    while ($results = c::t('#ccc#updated')->page_select_books_by_topic($topics, $offset, $size)) {
         $offset += $size;
         $books = [];
         foreach ($results as $item) {
@@ -187,7 +191,7 @@ json;
             if (bookThreadIsDeploy($book)) {
                 continue;
             }
-            $fid = 2;//什么主题
+            $fid = $mapTopic[0];//什么主题
             $subject = genBookForumTitle($book);
             $message = genBookForumContent($book);
             $dateLine = time() + rand(10, 60);//创建时间
